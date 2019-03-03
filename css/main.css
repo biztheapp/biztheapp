@@ -13,11 +13,11 @@ html {
 
 *::-moz-selection, *::-moz-selection {
   color: white;
-  background-color: #4D61FC; }
+  background-color: #A20053; }
 
 *::-moz-selection, *::selection {
   color: white;
-  background-color: #4D61FC; }
+  background-color: #A20053; }
 
 body {
   background-color: white;
