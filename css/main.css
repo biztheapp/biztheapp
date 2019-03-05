@@ -1356,13 +1356,14 @@ button.button {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #303030;
   padding: 7px 15px; }
 
 .via-unicorn-platform__link {
   vertical-align: middle;
   text-decoration: none;
   font-size: 10px;
-  color: inherit;
+  color: grey;
   letter-spacing: 0.02em; }
   .via-unicorn-platform__link:hover {
     color: #A20053; }
