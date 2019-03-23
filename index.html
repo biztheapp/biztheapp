@@ -210,11 +210,10 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 </div>
               </div>
               <div class="form__button">
-                  <button class="button js-submit-button button--accent-bg " type="submit"><span class="button__text">Sign Up</span>
+                  <button class="button js-submit-button button--accent-bg " type="submit" onclick="return gtag_report_conversion('http://www.biztheapp.com/')"><span class="button__text">Sign Up</span>
                     <div class="spinner"></div>
                     <div class="button__submit_success">
                       <div class="button__success_circle"></div>
-                      <script>gtag_report_conversion</script>
                       <div><svg class="button__success_tick" width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg"><path class="button__success_tick_path" stroke="#FFF" d="M0 8l5.119 3.873L11.709.381" fill="none" fill-rule="evenodd" stroke-linecap="square"/></svg></div>
                     </div><span class="icon"><svg viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg"><path d="M12.823 4.164L8.954.182a.592.592 0 0 0-.854 0 .635.635 0 0 0 0 .88l2.836 2.92H.604A.614.614 0 0 0 0 4.604c0 .344.27.622.604.622h10.332L8.1 8.146a.635.635 0 0 0 0 .88.594.594 0 0 0 .854 0l3.869-3.982a.635.635 0 0 0 0-.88z" fill-rule="nonzero" fill="#00396B"/></svg></span>
                   </button>
