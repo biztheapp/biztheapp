@@ -34,6 +34,23 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     return false;
   }
   </script>
+  <!-- Cookie alert -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef"
+      },
+      "button": {
+        "background": "#f71559"
+      }
+    },
+    "theme": "edgeless"
+  })});
+  </script>
   </head>
   <body>
 <!-- START OF: Header 58 =====-->
